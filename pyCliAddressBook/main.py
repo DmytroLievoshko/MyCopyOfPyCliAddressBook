@@ -2,10 +2,10 @@ import pickle
 import os
 import re
 from datetime import datetime
-# from pyCliAddressBook.autocompletion import Invoker
-# import pyCliAddressBook.validator as validator
-from autocompletion import Invoker
-import validator as validator
+from pyCliAddressBook.autocompletion import Invoker
+import pyCliAddressBook.validator as validator
+# from autocompletion import Invoker
+# import validator as validator
 
 from dateutil import parser
 from rich.console import Console
