@@ -12,7 +12,8 @@ from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.validation import Validator
 from abc import ABC, abstractmethod
 
-import pyCliAddressBook.sorting as sorting
+# import pyCliAddressBook.sorting as sorting
+import sorting as sorting
 
 kb = KeyBindings()
 
